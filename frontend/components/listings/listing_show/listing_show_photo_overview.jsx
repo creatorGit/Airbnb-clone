@@ -18,12 +18,12 @@ class ListingShowPhotoOverview extends React.Component {
                 <ImageZoom 
                   image={{
                     src: photoUrls[idx],
-                    alt: 'aerbnb listing photo',
+                    alt: 'Airbnb listing photo',
                     className: 'listingshow__photo-single'
                   }}
                   zoomImage={{
                     src: thumbnailUrls[idx],
-                    alt: 'aerbnb listing photo',
+                    alt: 'Airbnb listing photo',
                   }} 
                 />
               </div>

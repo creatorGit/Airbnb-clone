@@ -1,6 +1,6 @@
-# Aerbnb
-### [View the live site](https://aerbnb.herokuapp.com/#/)
-**Aerbnb** is a single-page, full stack web application **(SPA)** inspired by Airbnb where users can view, book, and search for listings by location.
+# Airbnb
+### [View the live site](https://airbnb.herokuapp.com/#/)
+**Airbnb** is a single-page, full stack web application **(SPA)** inspired by Airbnb where users can view, book, and search for listings by location.
 
 It utilizes **Ruby on Rails** with a **PostgreSQL** database on the back-end, and **React.js** and **Redux** on the front-end. 
 
@@ -8,7 +8,7 @@ It utilizes **Ruby on Rails** with a **PostgreSQL** database on the back-end, an
 
 ![AirBnB clone screenshot Kenneth Choi]
 ### Key Features
-#### [Aerbnb Design Documents]
+#### [Airbnb Design Documents]
 
 #### User Authentication
 * Users can sign up or log in to use the application
@@ -122,21 +122,21 @@ class ListingMap extends React.Component {
 * A logged in user is able to make valid bookings on listings and delete any booking he or she made
 
 #### Technology Stack
-Aerbnb is a single-page web application with one backend route responsible for rendering HTML. User interactions in the front-end side trigger AJAX requests to the back-end, which is responsible for rendering database information in JSON format.
+Airbnb is a single-page web application with one backend route responsible for rendering HTML. User interactions in the front-end side trigger AJAX requests to the back-end, which is responsible for rendering database information in JSON format.
 
 ### Front-end
 #### React
 The Rails backend API is connected to a React frontend to efficiently render to the virtual DOM.
 
 #### Redux
-Redux manages the front-end state of Aerbnb. When database information is retrieved, Redux state is updated first and re-renders the appropriate React components.
+Redux manages the front-end state of Airbnb. When database information is retrieved, Redux state is updated first and re-renders the appropriate React components.
 
 ### Back-end
 #### Ruby on Rails
 Ruby on Rails is the back-end framework used to query the database.
 
 #### Database
-Aerbnb uses a PostgreSQL database to store its relational data.
+Airbnb uses a PostgreSQL database to store its relational data.
 
 #### Future Plans
 * Implement ability for users to upload profile pictures and edit profile page

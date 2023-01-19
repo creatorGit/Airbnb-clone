@@ -15,7 +15,7 @@ const Landing = props => {
       </div>
       <div className="header__desc-container">
         <p className="header__desc-content">
-          Introducing Aerbnb Luxe<br />
+          Introducing Airbnb Luxe<br />
           Extraordinary homes<br />
           with five–star everything
           </p>
