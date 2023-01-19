@@ -5,8 +5,6 @@
 It utilizes **Ruby on Rails** with a **PostgreSQL** database on the back-end, and **React.js** and **Redux** on the front-end. 
 
 ### Screenshots
-
-![AirBnB clone screenshot Kenneth Choi]
 ### Key Features
 #### [Airbnb Design Documents]
 
